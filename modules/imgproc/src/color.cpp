@@ -568,7 +568,7 @@ private:
 struct IPPReorderGeneralMulFunctor
 {
     IPPReorderGeneralMulFunctor(ippiReorderFunc _func1, ippiGeneralFunc _func2, ippiMulCScaleFunc _func3, int _order0, int _order1, int _order2, int _mul0, int _mul1, int _mul2, int _depth) :
-        func1(_func1), func2(_func2), depth(_depth)
+        func1(_func1), func2(_func2), func3(_func3), depth(_depth)
     {
         mul[0] = _mul0;
         mul[1] = _mul1;
